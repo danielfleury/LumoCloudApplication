@@ -1,0 +1,18 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "ProjectCase",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "administrators",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "CreationDate",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}
